@@ -1,0 +1,49 @@
+.card-largura {
+    max-width: 18rem;
+}
+
+.imagem-carrosel-1 {
+   object-fit: cover; 
+   /* É o jeito com que o objeto se comporta com relação ao container pai, nesse caso
+   ele está cobrindo o container e o que passa disso é cortado, seguindo a proporção */
+   object-position: 0 80%;
+   height: 400px;
+}
+
+.imagem-carrosel-2 {
+    object-fit: cover; 
+    /* É o jeito com que o objeto se comporta com relação ao container pai, nesse caso
+    ele está cobrindo o container e o que passa disso é cortado, seguindo a proporção */
+    object-position: 0 70%;
+    height: 400px;
+ }
+
+.fonte-titulo {
+    font-family: 'Pacifico', cursive;
+ }
+ 
+ .cor-especial {
+    color: darkred!important;
+ }
+
+ .botao-cor-especial{
+    background-color: #8b0000;
+    color: white;
+ }
+
+ .borda-cor-especial {
+    border-color: #720000;
+ }
+
+ /* #receitas {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 30px;
+ } */
+
+ .card-img-teste{
+     object-fit: cover;
+     height: 200px;
+     object-position: 0 70%;
+ }
